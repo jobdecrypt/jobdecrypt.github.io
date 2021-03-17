@@ -2612,6 +2612,13 @@ fieldset:disabled a.btn {
   background-color: #1abc9c;
   border-color: #1abc9c;
 }
+
+.btn-primary2 {
+  color: #fff;
+  background-color: red;
+  border-color: black;
+}
+
 .btn-primary:hover {
   color: #fff;
   background-color: #159a80;
@@ -4195,6 +4202,7 @@ input[type="button"].btn-block {
   display: block;
   padding: 0.5rem 1rem;
 }
+
 .nav-link:hover,
 .nav-link:focus {
   text-decoration: none;
@@ -4204,6 +4212,23 @@ input[type="button"].btn-block {
   pointer-events: none;
   cursor: default;
 }
+
+/* -----this is Job's changes---- */
+.nav-link2 {
+  display: -moz-grid-line;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link2:hover,
+.nav-link2:focus {
+  text-decoration: none;
+}
+.nav-link2.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+/* --------Until here-------- */
 
 .nav-tabs {
   border-bottom: 0.125rem solid #dee2e6;

@@ -1,0 +1,25 @@
+{
+  "name": "jobdecrypt.github.io",
+  "version": "1.0.0",
+  "description": "Job Villanca's Main Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jobdecrypt/jobdecrypt.github.io.git"
+  },
+  "keywords": [
+    "jobdecrypt",
+    "main-page",
+    "job",
+    "villanca"
+  ],
+  "author": "Job Villanca",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jobdecrypt/jobdecrypt.github.io/issues"
+  },
+  "homepage": "https://jobdecrypt.github.io"
+}
