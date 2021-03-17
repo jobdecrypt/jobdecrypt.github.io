@@ -36,10 +36,9 @@ body {
   width: 5in;
   height: 5in;
   position: absolute;
-  top: 60%;
-  left: 38%;
-  transform: translate(20%, 20%);
-  border-radius: 20%;
+  /* display: inline-block; */
+  top: 73%;
+  left: 41%;
 }
 
 img {

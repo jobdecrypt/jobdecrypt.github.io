@@ -26,10 +26,6 @@ function x() {
   div.appendChild(img);
 }
 
-// setTimeout(() => {
-
-// }, 2000);
-
 setTimeout(() => {
   x();
 }, 2500);
