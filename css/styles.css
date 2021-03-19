@@ -2611,7 +2611,7 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #fff;
   background-color: #1abc9c;
-  border-color: #1abc9c;
+  border-color: #000000;
 }
 
 .btn-primary2 {
@@ -10631,7 +10631,7 @@ a.text-dark:focus {
   top: 1rem;
   font-size: 3rem;
   line-height: 3rem;
-  color: #1abc9c;
+  color: red;
   opacity: 1;
 }
 

@@ -101,24 +101,23 @@ N
       }
     </script>
     <body>
-      <p></p>
-      <div class="container">
-        <div id="game">
-          <div class="row">
+      <div id="game">
+        <div style="position: absolute; bottom: 1.5em" class="container-fluid">
+          <div class="row row-col-3">
             <div class="col">
-              <button onclick="makeOne()" class="btn btn-primary">
+              <button onclick="makeOne()" class="btn btn-primary col-12">
                 Add PacMan
               </button>
             </div>
-            <div class="col row">
-              <button onclick="update()" class="btn btn-primary">
+            <div class="col">
+              <button onclick="update()" class="btn btn-primary col-12">
                 Start Game
               </button>
             </div>
 
             <div class="col">
               <a href="../index.html"
-                ><button class="btn btn-primary2">Back to Main Page</button></a
+                ><button class="btn btn-primary2 col-12">Main Page</button></a
               >
             </div>
           </div>
