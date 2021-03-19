@@ -1,6 +1,6 @@
 //https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip
 
-mapboxgl.accessToken = "ADD_YOUR_TOKEN_HERE";
+mapboxgl.accessToken = "pk.eyJ1IjoidmlsbGFuY2ExOTkxIiwiYSI6ImNrbHowaGlhcTA2bHAyb3A4NzdzcHlpb3IifQ.DrUk_IeC4uA-_uqhKyXr6Q";
 
 const map = new mapboxgl.Map({
   container: "map",
