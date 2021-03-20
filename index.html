@@ -31,11 +31,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    
   </head>
   <body id="page-top">
     <!-- Navigation-->
     <nav
-      class="navbar navbar-expand-lg bg-secondary  fixed-top"
+      class="navbar navbar-expand-lg bg-secondary fixed-top"
       id="mainNav"
     >
       <div style="font-family: Source Code Pro, monospace" class="container">
@@ -43,7 +44,7 @@
           >let jobDecrypt</a
         >
         <button
-          class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+          class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-secondary text-white rounded"
           type="button"
           data-toggle="collapse"
           data-target="#navbarResponsive"
@@ -51,11 +52,18 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          Menu
+         
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="#video"
+                >Video</a
+              >
+            </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a
                 class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
@@ -82,7 +90,9 @@
       </div>
     </nav>
     <!-- Masthead-->
+   
     <header class="masthead bg-primary text-white text-center">
+      
       <div class="container d-flex align-items-center flex-column">
         <!-- Masthead Avatar Image-->
         <img
@@ -148,7 +158,17 @@
           </p> -->
 
       </div>
+    
     </header>
+    <!-- Video Section-->
+    <section style="background-color: black;" class="page-section" id="video">
+      <div class="container-fluid">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Xa5EU-qAv-I?list=LL" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        </div>
+    </section>
+    
     <!-- Portfolio Section-->
     <section class="page-section portfolio" id="portfolio">
       <div class="container">
@@ -396,8 +416,8 @@
               <div class="form-group">
                 <!--id="sendMessageButton"-->
                 
+                  
                 <button 
-                
                   class="btn btn-primary btn-xl"
                   type="submit"
                   value="Send"
@@ -406,6 +426,7 @@
                   Send
                 </button>
               
+            
               </div>
             </form>
           </div>
