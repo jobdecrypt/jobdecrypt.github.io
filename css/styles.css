@@ -2610,7 +2610,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #1abc9c;
+  background-color: #062c33;
   border-color: #000000;
 }
 
@@ -2622,28 +2622,28 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #159a80;
+  background-color: #062c33;
   border-color: #148f77;
 }
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
+  background-color: #062c33;
+  border-color: #062c33;
   box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #fff;
-  background-color: #1abc9c;
-  border-color: #1abc9c;
+  background-color: #062c33;
+  border-color: #062c33;
 }
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #148f77;
-  border-color: #12846e;
+  background-color: #062c33;
+  border-color: #062c33;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -4269,7 +4269,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #1abc9c;
+  background-color: #062c33;
 }
 
 .nav-fill > .nav-link,
@@ -6498,11 +6498,38 @@ a.close.disabled {
 }
 
 .bg-custom {
-  background-image: url("https://gfycat.com/blackfantasticethiopianwolf") !important;
+  background-image: url("https://media1.giphy.com/media/3o7TKyaOmSpxKtlouQ/source.gif") !important;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  object-fit: cover;
+  width: 100%;
+}
+
+.bg-custom2 {
+  background-color: #111111 !important;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+
+  object-fit: cover;
+  width: 100%;
+}
+
+.bg-custom3 {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Dark-teal-canvas-fabric-texture-wallpapers-HD.jpg") !important;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+
+  object-fit: cover;
+  width: 100%;
 }
 
 .bg-primary {
-  
   background-color: #062c33 !important;
 
   /*#1abc9c*/
@@ -6516,14 +6543,14 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #1a252f !important;
+  background-color: #111111 !important;
 }
 
 a.bg-secondary:hover,
 a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
-  background-color: #1a252f !important;
+  background-color: #111111 !important;
 }
 
 .bg-success {
