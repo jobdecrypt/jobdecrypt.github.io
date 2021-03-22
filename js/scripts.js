@@ -79,6 +79,3 @@
       });
   });
 })(jQuery); // End of use strict
-
-let fullStack_webDeveloper = 100;
-console.log(full_stack_webDeveloper);
