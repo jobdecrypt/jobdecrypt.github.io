@@ -27,22 +27,27 @@
       rel="stylesheet"
       type="text/css"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-    
   </head>
   <body id="page-top">
     <!-- Navigation-->
-    <nav
-      class="navbar navbar-expand-lg bg-custom2 fixed-top"
-      id="mainNav"
-    >
+    <nav class="navbar navbar-expand-lg bg-custom2 fixed-top" id="mainNav">
       <div style="font-family: Source Code Pro, monospace" class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"
-          >let jobDecrypt</a
-        >
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          <!-- Span is to animate the text through textAnimate.js  -->
+          <!-- let jobDecrypt -->
+          let job<span
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ "Decrypt", "Design", "Develop" ]'
+          ></span>
+        </a>
         <button
           class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-secondary text-white rounded"
           type="button"
@@ -52,7 +57,6 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-         
           <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -85,18 +89,25 @@
                 >Contact Me</a
               >
             </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://github.com/jobdecrypt"
+              target="_blank"
+              ><i class="fab fa-fw fa-github"></i
+            ></a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Masthead-->
-   
+
     <header class="masthead bg-primary text-white text-center">
-      
       <div class="container d-flex align-items-center flex-column">
         <!-- Masthead Avatar Image-->
         <img
-        style="border-radius: 50%;"
+          style="border-radius: 50%"
           class="masthead-avatar mb-5"
           src="assets/img/portfolioNew/myPhoto.jfif"
           alt=""
@@ -111,30 +122,45 @@
           <div class="divider-custom-line"></div> -->
         </div>
         <!-- Masthead Subheading-->
-        <p style="font-weight: 100; font-size: 30px; " class="masthead-subheading mb-0">
-        Full-Stack Web Developer
+        <p
+          style="font-weight: 100; font-size: 30px"
+          class="masthead-subheading mb-0"
+        >
+          Full-Stack Web Developer
         </p>
-        
+
         <p></p>
 
         <p class="masthead-subheading font-weight-light">
           [
-          <a class="nav-link2 py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-          href="https://www.mongodb.com/" target="_blank"
-          >MongoDB</a> 
-          , 
-          <a class=" py-3 px-0 px-lg-3 rounded js-scroll-trigger nav-link2"
-          href="https://expressjs.com/" target="_blank"
-          >Express.JS</a> 
+          <a
+            class="nav-link2 py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+            href="https://www.mongodb.com/"
+            target="_blank"
+            >MongoDB</a
+          >
           ,
-          <a class=" py-3 px-0 px-lg-3 rounded js-scroll-trigger nav-link2"
-          href="https://reactjs.org/" target="_blank"
-          >React.JS</a>  
-          , 
-           <a class=" py-3 px-0 px-lg-3 rounded js-scroll-trigger nav-link2"
-          href="https://nodejs.org/en/" target="_blank"
-          >Node.JS</a> 
-           ]
+          <a
+            class="py-3 px-0 px-lg-3 rounded js-scroll-trigger nav-link2"
+            href="https://expressjs.com/"
+            target="_blank"
+            >Express.JS</a
+          >
+          ,
+          <a
+            class="py-3 px-0 px-lg-3 rounded js-scroll-trigger nav-link2"
+            href="https://reactjs.org/"
+            target="_blank"
+            >React.JS</a
+          >
+          ,
+          <a
+            class="py-3 px-0 px-lg-3 rounded js-scroll-trigger nav-link2"
+            href="https://nodejs.org/en/"
+            target="_blank"
+            >Node.JS</a
+          >
+          ]
         </p>
 
         <!-- Saved for future iteration -->
@@ -156,19 +182,22 @@
             
           ] ;
           </p> -->
-
       </div>
-    
     </header>
     <!-- Video Section-->
     <section class="page-section bg-custom2" id="video">
       <div class="container">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Xa5EU-qAv-I?list=LL" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe
+            class="embed-responsive-item"
+            src="https://www.youtube.com/embed/Xa5EU-qAv-I?list=LL"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
-        </div>
+      </div>
     </section>
-    
+
     <!-- Portfolio Section-->
     <section class="page-section bg-custom portfolio" id="portfolio">
       <div class="container">
@@ -183,27 +212,21 @@
           <!-- <div class="divider-custom-line"></div> -->
           <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div> -->
           <div class="divider-custom-line"></div>
-          
         </div>
-        <br>
+        <br />
         <!-- Portfolio Grid Items-->
         <div class="row justify-content-center">
           <!-- Portfolio Item 1-->
-          <div class="col-md-6 col-lg-4 mb-5" >
+          <div class="col-md-6 col-lg-4 mb-5">
             <div
               class="portfolio-item mx-auto"
               data-toggle="modal"
               data-target="#portfolioModal1"
-              
             >
-            
               <div
-              style="border-color: black;"  
-              class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                style="border-color: black"
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
               >
-
-    
-              
                 <div
                   class="portfolio-item-caption-content text-center text-white"
                 >
@@ -216,15 +239,10 @@
                 src="https://media.giphy.com/media/cIN8fDx4uyvru9ucLo/giphy.gif"
                 alt=""
               />
-                <!-- <div style="width:100%;height:0;padding-bottom:56%;position:unset;"><iframe src="https://giphy.com/embed/cIN8fDx4uyvru9ucLo" width="100%" height="100%" style="position:absolute" frameBorder="0"></iframe> -->
-            
-            
-          
-            
-           </div> 
-           
+              <!-- <div style="width:100%;height:0;padding-bottom:56%;position:unset;"><iframe src="https://giphy.com/embed/cIN8fDx4uyvru9ucLo" width="100%" height="100%" style="position:absolute" frameBorder="0"></iframe> -->
+            </div>
           </div>
-          
+
           <!-- Portfolio Item 2-->
           <div class="col-md-6 col-lg-4 mb-5">
             <div
@@ -281,22 +299,20 @@
         <h2 class="page-section-heading text-center text-uppercase text-white">
           About Me
         </h2>
-        
+
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
           <!-- <div class="divider-custom-line"></div> -->
           <!-- <div class="divider-custom-icon"><i class="fas fa-star"></i></div> -->
           <div class="divider-custom-line"></div>
-         
         </div>
-        <br>
+        <br />
         <!-- About Section Content-->
         <div class="row">
           <div class="col-lg-4 ml-auto">
             <p class="lead">
-              I am very passionate and I express my creativity by coding
-              various types of computer languages and make it functional and
-              effective.
+              I am very passionate and I express my creativity by coding various
+              types of computer languages and make it functional and effective.
             </p>
             <p class="lead">
               I've been coding since 2005 and I'm enhancing my knowledge by
@@ -304,7 +320,7 @@
             </p>
           </div>
           <div class="col-lg-4 mr-auto">
-            <p class="lead">I'm currently seeking for new opportunities.</p>
+            <p class="lead">I'm currently seeking new opportunities.</p>
             <p class="lead">
               Feel free to contact me if you're interested in one of my
               projects.
@@ -415,18 +431,14 @@
               <div id="success"></div>
               <div class="form-group">
                 <!--id="sendMessageButton"-->
-                
-                  
-                <button 
+
+                <button
                   class="btn btn-primary btn-xl"
                   type="submit"
                   value="Send"
-                  
                 >
                   Send
                 </button>
-              
-            
               </div>
             </form>
           </div>
@@ -440,9 +452,7 @@
           <!-- Footer Location-->
           <div class="col-lg-4 mb-5 mb-lg-0">
             <h4 class="text-uppercase mb-4">Location</h4>
-            <p class="lead mb-0">
-              U.S.A.
-            </p>
+            <p class="lead mb-0">U.S.A.</p>
           </div>
           <!-- Footer Social Icons-->
           <div class="col-lg-4 mb-5 mb-lg-0">
@@ -465,6 +475,12 @@
               target="_blank"
               ><i class="fab fa-fw fa-linkedin-in"></i
             ></a>
+            <a
+              class="btn btn-outline-light btn-social mx-1"
+              href="https://github.com/jobdecrypt"
+              target="_blank"
+              ><i class="fab fa-fw fa-github"></i
+            ></a>
           </div>
           <!-- Footer About Text-->
           <div class="col-lg-4">
@@ -472,7 +488,9 @@
             <p class="lead mb-0">
               This page was created by Job Villanca and licensed under the MIT
               License. Check out more of my work on GitHub here
-              <a href="https://github.com/jobdecrypt" target="_blank">Check Them Out!</a>
+              <a href="https://github.com/jobdecrypt" target="_blank"
+                >Check Them Out!</a
+              >
             </p>
           </div>
           <!-- <div class="col-lg-4">
@@ -548,19 +566,38 @@
                     alt=""
                   />
                   <!-- Portfolio Modal - Text-->
-                  <p class="mb-5">
-                    <b>What is the term that you use for multiple Pacman? It's PACMEN!
-                    <br>
-                    Watch as the pacmen go crazy bouncing up and down and all
-                    around the screen!
-                  </br>
-                </b>
+                  <p>
+                    <b
+                      >What is the term that you use for multiple Pacman? It's
+                      PACMEN!
+                      <p>
+                        <ul>
+                          <li>Click "Add Pacman" a couple times to generate Pacmen.</li>
+                          <li  class="mb-5">Click "Start Game" a couple times to move the Pacmen and make them go crazy.</li>
+                          
+
+                        </ul>
+                      </p>
+                    </b>
                   </p>
                   <p>
                     <a href="./PacMen Factory/PacMen.html"
-                      ><button class="btn btn-primary" style="font-size: 1.5rem;">
+                      ><button
+                        class="btn btn-primary"
+                        style="font-size: 1.5rem"
+                      >
                         <!-- <i class="fas fa-times fa-fw"></i> -->
                         View Full Page
+                      </button></a
+                    >
+                      <!-- link to github repo -->
+                    <a href="https://github.com/jobdecrypt/Pacmen-Exercise"
+                      ><button
+                        class="btn btn-primary"
+                        style="font-size: 1.5rem"
+                      >
+                        <!-- <i class="fas fa-times fa-fw"></i> -->
+                        Git!
                       </button></a
                     >
                   </p>
@@ -622,14 +659,28 @@
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-5">
                     <b>
-                    The eyes will follow the mouse pointer as you move it. Try it!
-                  </b>
+                      The eyes will follow the mouse pointer as you move it. Try
+                      it!
+                    </b>
                   </p>
                   <p>
-                    <a href="./The Eye/eyes.html"
-                      ><button class="btn btn-primary" style="font-size: 1.5rem;">
+                    <a href="./Eye Exercise/eyes.html"
+                      ><button
+                        class="btn btn-primary"
+                        style="font-size: 1.5rem"
+                      >
                         <!-- <i class="fas fa-times fa-fw"></i> -->
                         View Full Page
+                      </button></a
+                    >
+                      <!-- link to github repo -->
+                      <a href="https://github.com/jobdecrypt/Eye-Exercise"
+                      ><button
+                        class="btn btn-primary"
+                        style="font-size: 1.5rem"
+                      >
+                        <!-- <i class="fas fa-times fa-fw"></i> -->
+                        Git!
                       </button></a
                     >
                   </p>
@@ -672,7 +723,7 @@
                     class="portfolio-modal-title text-secondary text-uppercase mb-0"
                     id="portfolioModal3Label"
                   >
-                   Real-time Bus Tracker
+                    Real Time Bus Tracker
                   </h2>
                   <!-- Icon Divider-->
                   <div class="divider-custom">
@@ -691,14 +742,28 @@
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-5">
                     <b>
-                    This is a Real-time location of some of the public Bus in Boston, Massachusetts.
-                  </b>
+                      This is a Real-time location of some of the public Bus in
+                      Boston, Massachusetts.
+                    </b>
                   </p>
                   <p>
-                    <a href="./Real-time bus tracker/busTracker.html"
-                      ><button class="btn btn-primary" style="font-size: 1.5rem;">
+                    <a href="./Real Time Bus Tracker/busTracker.html"
+                      ><button
+                        class="btn btn-primary"
+                        style="font-size: 1.5rem"
+                      >
                         <!-- <i class="fas fa-times fa-fw"></i> -->
                         View Full Page
+                      </button></a
+                    >
+                      <!-- link to github repo -->
+                      <a href="https://github.com/jobdecrypt/Real-Time-Bus-Tracker"
+                      ><button
+                        class="btn btn-primary"
+                        style="font-size: 1.5rem"
+                      >
+                        <!-- <i class="fas fa-times fa-fw"></i> -->
+                        Git!
                       </button></a
                     >
                   </p>
@@ -723,6 +788,7 @@
     <script src="assets/mail/jqBootstrapValidation.js"></script>
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
+    <script src="js/textAnimate.js"></script>
     <script src="js/scripts.js"></script>
   </body>
 </html>
