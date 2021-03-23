@@ -28,4 +28,4 @@ function x() {
 
 setTimeout(() => {
   x();
-}, 2500);
+}, 3500);

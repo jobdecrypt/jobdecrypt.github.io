@@ -32,16 +32,10 @@ body {
   border-radius: 50%;
 }
 
-.teeth {
-  width: 5in;
-  height: 5in;
-  position: absolute;
-  /* display: inline-block; */
-  top: 73%;
-  left: 41%;
-}
-
 img {
-  max-width: 100%;
-  height: auto;
+  width: 500px;
+  position: relative;
+  bottom: -900;
+  left: 50%;
+  transform: translateX(-50%);
 }
