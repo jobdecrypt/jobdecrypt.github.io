@@ -6,7 +6,8 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Pacmen</title>
-      <link href="../css/styles.css" rel="stylesheet" />
+      <!-- Core theme CSS (includes Bootstrap)-->
+      <link href="./styles.css" rel="stylesheet" />
     </head>
 
     <script>
@@ -65,23 +66,6 @@
       }
 
       function checkCollisions(item) {
-        //
-        // detect collision with all walls and make pacman bounce
-        //
-        /*let xAxis = window.innerWidth - 1;
-        let yAxis = window.innerHeight - 1;
-N
-        if(item.position.x > xAxis && item.position.y > yAxis){
-            pos.x -= item.velocity.x;  
-            pos.y -= item.velocity.y;
-        }
-
-        if(item.position.y < yAxis && item.position.x < xAxis){
-            pos.x -= item.velocity.x;
-            pos.y -= item.velocity.y;
-            
-        }*/
-
         if (
           item.position.x + item.velocity.x + item.newimg.width >
             window.innerWidth ||
@@ -106,7 +90,7 @@ N
           <div class="row row-col-3">
             <div class="col">
               <button onclick="makeOne()" class="btn btn-primary col-12">
-                Add PacMan
+                Add Pacmen
               </button>
             </div>
             <div class="col">
