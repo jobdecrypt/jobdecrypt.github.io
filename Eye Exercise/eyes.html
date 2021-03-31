@@ -4,29 +4,49 @@
     <link href="./styles.css" rel="stylesheet" />
     <!-- Main Styes CSS  -->
     <link rel="stylesheet" type="text/css" href="./mainStyles.css" />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <!-- Menu  -->
+    <!-- navigation  -->
+    <nav class="navbar navbar-expand-lg bg-custom2 fixed-top" id="mainNav">
+      <div style="font-family: Source Code Pro, monospace" class="container">
+        <a class="navbar-brand js-scroll-trigger" href="http://jobdecrypt.github.io">
+          <!-- Span is to animate the text through textAnimate.js  -->
+          <!-- let jobDecrypt -->
+          let job<span
+            class="txt-rotate"
+            data-period="2000"
+            data-rotate='[ "Decrypt", "Design", "Develop" ]'
+          ></span>
+        </a>
 
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col">
-          <div
-            style="display: flex; align-items: center; justify-content: center"
-          >
-            <a
-              href="
-  ../index.html"
-            >
-              <button class="btn btn-primary2 btn-xl">
-                Back to Main Page
-              </button></a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a
+                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                href="https://jobdecrypt.github.io"
+                >Main Page</a
+              >
+            </li>
+      </nav>
+    
 
     <p>
       <div class="eyes">
@@ -40,8 +60,9 @@
     </p>
     
       <!-- Added Teeth Img  -->
-      
-      <div id="smile" ></div>
+      <div id="smile"></div>
+<!-- Scripts  -->
+<script src="./textAnimate.js"></script>
     <script src="./eyes.js"></script>
   </body>
 

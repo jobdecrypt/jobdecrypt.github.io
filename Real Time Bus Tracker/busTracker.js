@@ -1,6 +1,9 @@
 //https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip
 
-mapboxgl.accessToken = "pk.eyJ1IjoidmlsbGFuY2ExOTkxIiwiYSI6ImNrbHowaGlhcTA2bHAyb3A4NzdzcHlpb3IifQ.DrUk_IeC4uA-_uqhKyXr6Q";
+mapboxgl.accessToken =
+  "pk.eyJ1IjoidmlsbGFuY2ExOTkxIiwiYSI6ImNrbHowaGlhcTA2bHAyb3A4NzdzcHlpb3IifQ.DrUk_IeC4uA-_uqhKyXr6Q";
+
+let followMarker = [];
 
 const map = new mapboxgl.Map({
   container: "map",
@@ -16,15 +19,15 @@ async function run() {
   latLong.push(locations[0].attributes.longitude); //this will push the json data of longitude in latLong Array
   latLong.push(locations[0].attributes.latitude); //this will push the json data of latitude in latLong Array
 
-  //   followMarker = [];
-  //   followMarker.push(locations[0].attributes.latitude); //this will push the json data of longitude in latLong Array
-  //   followMarker.push(locations[0].attributes.longitude);
+  // Do not switch this two lines, it will affect the centering of the map
+  followMarker.push(locations[0].attributes.longitude);
+  followMarker.push(locations[0].attributes.latitude); //this will push the json data of longitude in latLong Array
 
-  new mapboxgl.Marker().setLngLat(latLong).addTo(map);
+  new mapboxgl.Marker({ color: "red" }).setLngLat(latLong).addTo(map);
 
+  // logs the latitude and longitude of the marker
   console.log(new Date());
   console.log(latLong);
-  //marker.setLngLat(latLong);
 
   setTimeout(run, 6000);
 }
@@ -36,6 +39,7 @@ async function getBusLocations() {
   //   "https://api-v3.mbta.com/trips/%22job%22?fields%5Btrip%5D=%22vehicle%22&include=%22route%22";
   const response = await fetch(url);
   const json = await response.json();
+
   return json.data;
 }
 
