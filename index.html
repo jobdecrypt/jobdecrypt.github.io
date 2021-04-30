@@ -2,12 +2,19 @@
 <html lang="en">
   <head>
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TXJR68W');</script>
-<!-- End Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-TXJR68W");
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -64,9 +71,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </head>
   <body id="page-top">
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXJR68W"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-TXJR68W"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg bg-custom2 fixed-top" id="mainNav">
       <div style="font-family: Source Code Pro, monospace" class="container">
@@ -266,13 +279,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               />
             </div>
           </div>
-
-          <!-- Portfolio THE EYE-->
+          <!-- Portfolio To-Do List-->
           <div class="col-md-6 col-lg-4 mb-5">
             <div
               class="portfolio-item mx-auto"
               data-toggle="modal"
               data-target="#portfolioModal2"
+            >
+              <div
+                style="border-color: black"
+                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+              >
+                <div
+                  class="portfolio-item-caption-content text-center text-white"
+                >
+                  <i class="fas fa-external-link-alt fa-3x"></i>
+                </div>
+              </div>
+
+              <img
+                class="img-fluid"
+                src="./React To-do App/app-img.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <!-- Portfolio THE EYE-->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div
+              class="portfolio-item mx-auto"
+              data-toggle="modal"
+              data-target="#portfolioModal3"
             >
               <div
                 class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
@@ -295,7 +332,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div
               class="portfolio-item mx-auto"
               data-toggle="modal"
-              data-target="#portfolioModal3"
+              data-target="#portfolioModal4"
             >
               <div
                 class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
@@ -645,6 +682,91 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     class="portfolio-modal-title text-secondary text-uppercase mb-0"
                     id="portfolioModal2Label"
                   >
+                    React To-do App
+                  </h2>
+                  <!-- Icon Divider-->
+                  <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                  </div>
+                  <!-- Portfolio Modal - Image-->
+                  <img
+                    class="img-fluid rounded mb-5"
+                    src="./React To-do App/app-img.png"
+                    alt=""
+                  />
+                  <!-- Portfolio Modal - Text-->
+
+                  <b>
+                    <ul>
+                      <li class="mb-5">
+                        This is just a simple app to create a to-do list. Try
+                        it!
+                      </li>
+                    </ul>
+                  </b>
+
+                  <a href="./React To-do App/index.html"
+                    ><button
+                      class="btn btn-primary mb-2"
+                      style="font-size: 1.5rem"
+                    >
+                      View Full Page
+                    </button></a
+                  >
+
+                  <!-- link to my EYE EXERISE github repo -->
+
+                  <a href="https://github.com/jobdecrypt/React-To-Do-App"
+                    ><button
+                      class="btn btn-primary mb-2"
+                      style="font-size: 1.5rem"
+                    >
+                      <!-- <i class="fas fa-times fa-fw"></i> -->
+                      Git
+                    </button></a
+                  >
+
+                  <p>
+                    <button class="btn btn-primary2" data-dismiss="modal">
+                      <i class="fas fa-times fa-fw"></i>
+                      Close
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="portfolioModal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true"><i class="fas fa-times"></i></span>
+          </button>
+          <div class="modal-body text-center">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <!-- Portfolio Modal - Title-->
+                  <h2
+                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                    id="portfolioModal2Label"
+                  >
                     The Eyes
                   </h2>
                   <!-- Icon Divider-->
@@ -705,7 +827,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Portfolio Modal 3-->
     <div
       class="portfolio-modal modal fade"
-      id="portfolioModal3"
+      id="portfolioModal4"
       tabindex="-1"
       role="dialog"
       aria-labelledby="portfolioModal3Label"

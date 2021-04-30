@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: "Arial";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Arial;
+}
+
+.app {
+  background: white;
+  padding: 30px;
+  height: 100vh;
+}
+
+.todo-list {
+  background: #212529;
+  border-radius: 10px;
+  padding: 5px;
+  max-width: 850px;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 4px;
+  margin-right: 4px;
+  margin-left: 4px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1;
+  border-radius: 10px;
+  box-shadow: none;
+  padding: 2rem;
+  height: 2.25em;
+  font-size: 24px;
+}
