@@ -1,5 +1,5 @@
 //https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip
-const token = process.env.MAP_BOX_TOKEN;
+const token = "pk.eyJ1IjoidmlsbGFuY2ExOTkxIiwiYSI6ImNrbHowaGlhcTA2bHAyb3A4NzdzcHlpb3IifQ.DrUk_IeC4uA-_uqhKyXr6Q";
 
 mapboxgl.accessToken =
   `${token}`;
