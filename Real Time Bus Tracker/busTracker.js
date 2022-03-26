@@ -1,7 +1,7 @@
 //https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip
 
 
-mapboxgl.accessToken = MAP_BOX_TOKEN;
+mapboxgl.accessToken = MAPBOX_KEY;
 
 let followMarker = [];
 
